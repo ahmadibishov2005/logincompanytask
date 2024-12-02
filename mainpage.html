@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <style>
+      * {
+        margin:  0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .section-left {
+        width: 15%;
+        height: 100vh;
+        background-color: rgb(21, 66, 117);
+      }
+      .section-right {
+        width: 85%;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+      }
+      .sections {
+        display: flex;
+      }
+      .left-logo{
+        display: flex;
+        gap: 10px;
+        margin: 10px;
+      }
+      .left-logo i{
+        padding-top: 5px;
+        padding: 5px;
+        border: 1px solid;
+        border-radius: 50px;
+        color: white;
+      }
+      .left-logo h1{
+        color: white;
+        font-size: x-large;
+      }
+      .left-img{
+        padding-top: 10px;
+        margin: 10px;
+        display: flex;
+        color: white;
+        gap: 10px;
+      }
+      .left-img img{
+        width: 50px;
+        height: 50px;
+      }
+      .left-img p{
+        padding-top: 15px;
+      }
+      h4{
+        color: white;
+        margin: 20px;
+        padding-top: 20px;
+      }
+      .general{
+        color: white;
+        margin: 20px;
+      }
+     .categories{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+     }
+     .companies{
+        display: flex;
+        gap: 10px;
+        font-size: x-large;
+     }
+     .companies a{
+        text-decoration: none;
+        color: white;
+     }
+     .users a{
+        text-decoration: none;
+        color: white;
+     }
+     .users{
+        display: flex;
+        gap: 10px;
+        font-size: x-large;
+     }
+     .right-img img{
+      width: 50px;
+        height: 50px;
+     }
+     .right-top{
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 10px;
+     }
+     .right-img{
+      display: flex;
+      gap: 10px;
+      padding-top: 10px;
+     }
+     .right-img p{
+      padding-top: 15px;
+     }
+     .right-top i{
+      margin: 20px;
+      font-size: 30px;
+     }
+     .top-two{
+      display: flex;
+      justify-content: space-between;
+      padding-top:10px;
+      margin: 10px;
+     }
+     .two-right button{
+      background-color: aquamarine;
+      color: white;
+      border-radius: 5px;
+      padding: 10px;
+      border: 1px solid black;
+     }
+     .two-right input{
+      padding: 10px;
+     }
+     .staff-text{
+      margin: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+     }
+      .left-bottom{
+        color: rgb(139, 147, 218);
+        font-size: x-large;
+        background-color: rgb(24, 38, 99);
+        padding: 10px;
+        position: relative;
+        top: 640px;
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+      }
+      .staff-names{
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 15px;
+      }
+      .clients{
+        display: flex;
+        justify-content: space-around;
+      }
+      .edit-button{
+        background-color: rgb(98, 209, 172);
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        border: transparent;
+      }
+      .delete-button{
+        background-color: rgb(212, 74, 74);
+        padding: 5px;
+        border-radius: 5px;
+        color: white;
+        border: transparent;
+      }
+      .clients-all{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
+      table{
+        text-align: center;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <section class="sections">
+      <div class="section-left">
+        <div class="left-logo">
+            <i class="fa-solid fa-paw"></i>
+            <h1>Madani</h1>
+        </div>
+        <div class="left-img">
+            <img src="img.png" alt="">
+            <p>Welcome Super Admin</p>
+        </div>
+        <h4><strong>General</strong></h4>
+        <div class="general">
+            <div class="categories">
+                <div class="companies">
+                    <i class="fa-solid fa-building"></i>
+                    <p><a href="./company.html">Companies</a></p>
+                </div>
+                <div class="users">
+                    <i class="fa-regular fa-user"></i>
+                    <p><a href="./user.html">Users</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="left-bottom">
+          <i class="fa-solid fa-gear "></i>
+          <i class="fa-solid fa-expand "></i>
+          <i class="fa-solid fa-volume-high "></i>
+          <i class="fa-solid fa-power-off "></i>
+        </div>
+      </div>
+      <div class="section-right">
+        <div class="right-top">
+          <i class="fa-solid fa-bars"></i>
+          <div class="right-img">
+            <img src="img.png" alt="">
+            <p>Welcome Super Admin</p>
+        </div>
+        </div>
+        <hr>
+        <div class="top-two">
+          <div class="two-left">
+            <h1>Project Staff</h1>
+          </div>
+          <div class="two-right">
+            <button>Add New Staff</button>
+            <input type="search" placeholder="Search for...">
+            <button>Go!</button>
+          </div>
+        </div>
+        <div class="staff">
+          <div class="staff-text">
+            <h1>All Staff Members</h1>
+            <p>List of the staff with editable functionalities</p>
+          </div>
+          <table style="width: 100%;">
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>User Name</th>
+              <th>Password</th>
+              <th>Contact</th>
+              <th>Address</th>
+              <th>#Edit</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Ahmad</td>
+              <td>Ahmad123</td>
+              <td>*********</td>
+              <td>03000</td>
+              <td>Baku</td>
+              <td><button class="edit-button"> <i class="fa-solid fa-pen"></i> Edit</button><button class="delete-button"> <i class="fa-solid fa-trash-can"></i>Delete</button></td>
+            </tr>
+              <td>1</td>
+              <td>Ahmad</td>
+              <td>Ahmad123</td>
+              <td>*********</td>
+              <td>03000</td>
+              <td>Baku</td>
+              <td><button class="edit-button"> <i class="fa-solid fa-pen"></i> Edit</button><button class="delete-button"> <i class="fa-solid fa-trash-can"></i>Delete</button></td>
+            </tr>
+              <td>1</td>
+              <td>Ahmad</td>
+              <td>Ahmad123</td>
+              <td>*********</td>
+              <td>03000</td>
+              <td>Baku</td>
+              <td><button class="edit-button"> <i class="fa-solid fa-pen"></i> Edit</button><button class="delete-button"> <i class="fa-solid fa-trash-can"></i>Delete</button></td>
+            </tr>
+              <td>1</td>
+              <td>Ahmad</td>
+              <td>Ahmad123</td>
+              <td>*********</td>
+              <td>03000</td>
+              <td>Baku</td>
+              <td><button class="edit-button"> <i class="fa-solid fa-pen"></i> Edit</button><button class="delete-button"> <i class="fa-solid fa-trash-can"></i>Delete</button></td>
+            </tr>
+              <td>1</td>
+              <td>Ahmad</td>
+              <td>Ahmad123</td>
+              <td>*********</td>
+              <td>03000</td>
+              <td>Baku</td>
+              <td><button class="edit-button"> <i class="fa-solid fa-pen"></i> Edit</button><button class="delete-button"> <i class="fa-solid fa-trash-can"></i>Delete</button></td>
+            </tr>
+              <td>1</td>
+              <td>Ahmad</td>
+              <td>Ahmad123</td>
+              <td>*********</td>
+              <td>03000</td>
+              <td>Baku</td>
+              <td><button class="edit-button"> <i class="fa-solid fa-pen"></i> Edit</button><button class="delete-button"> <i class="fa-solid fa-trash-can"></i>Delete</button></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+    <table>
+      <thead>
+        <th>
+        </th>
+      </thead>
+    </table>
+  </body>
+</html>

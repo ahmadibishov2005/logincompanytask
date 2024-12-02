@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <style>
+      * {
+        margin:  0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .section-left {
+        width: 15%;
+        height: 100vh;
+        background-color: rgb(21, 66, 117);
+      }
+      .section-right {
+        width: 85%;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+      }
+      .sections {
+        display: flex;
+      }
+      .left-logo{
+        display: flex;
+        gap: 10px;
+        margin: 10px;
+      }
+      .left-logo i{
+        padding-top: 5px;
+        padding: 5px;
+        border: 1px solid;
+        border-radius: 50px;
+        color: white;
+      }
+      .left-logo h1{
+        color: white;
+        font-size: x-large;
+      }
+      .left-img{
+        padding-top: 10px;
+        margin: 10px;
+        display: flex;
+        color: white;
+        gap: 10px;
+      }
+      .left-img img{
+        width: 50px;
+        height: 50px;
+      }
+      .left-img p{
+        padding-top: 15px;
+      }
+      h4{
+        color: white;
+        margin: 20px;
+        padding-top: 20px;
+      }
+      .general{
+        color: white;
+        margin: 20px;
+      }
+     
+     .categories{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+     }
+     .companies{
+        display: flex;
+        gap: 10px;
+        font-size: x-large;
+     }
+     .companies a{
+        text-decoration: none;
+        color: white;
+     }
+     .users a{
+        text-decoration: none;
+        color: white;
+     }
+     .users{
+        display: flex;
+        gap: 10px;
+        font-size: x-large;
+     }
+    </style>
+  </head>
+  <body>
+    <section class="sections">
+      <div class="section-left">
+        <div class="left-logo">
+            <i class="fa-solid fa-paw"></i>
+            <h1>Madani</h1>
+        </div>
+        <div class="left-img">
+            <img src="img.png" alt="">
+            <p>Welcome Super Admin</p>
+        </div>
+        <h4><strong>General</strong></h4>
+        <div class="general">
+            <div class="categories">
+                <div class="companies">
+                    <i class="fa-solid fa-building"></i>
+                    <p><a href="./company.html">Companies</a></p>
+                </div>
+                <div class="users">
+                    <i class="fa-regular fa-user"></i>
+                    <p><a href="./user.html">Users</a></p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="section-right"></div>
+    </section>
+</body>
+</html>

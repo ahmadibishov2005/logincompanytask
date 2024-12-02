@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(228, 223, 215);
+        }
+       .company-register img{
+        width: 70px;
+        height: 70px;
+        }
+        .company-register{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           gap: 10px;
+           padding-top: 150px;
+        }
+        .inputs{
+           position: relative;
+           left: 10px;
+        }
+        button{
+            background-color: rgb(39, 39, 185);
+            padding: 10px 50px;
+            border-radius: 5px;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(39, 39, 185);
+        }
+        .image{
+           border: 1px solid;
+           width: 190px;
+           padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section class="company-register">
+        <img src="img.png" alt="">
+        <h1>Company Register</h1>
+        <div class="inputs">
+            <p>Full Name*</p>
+            <input type="text">
+            <p>Email Address*</p>
+            <input type="text">
+            <p>Password*</p>
+            <input type="password">
+            <p>Profile Image*</p>
+            <input class="image" type="file" accept="Image/*">
+        </div>
+        <button>LOGIN</button>
+        <P><a href="./registeruser.html">USER REGISTER PAGE</a></P>
+        <p>ALREADY HAVE AN ACCOUNT? <a href="./logincompany.html">LOGIN</a></p>
+    </section>
+</body>
+</html>
